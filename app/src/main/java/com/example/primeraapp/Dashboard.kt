@@ -19,8 +19,22 @@ class Dashboard : AppCompatActivity() {
         }
 
         val txtNombre: TextView=findViewById(R.id.txtNombre)
+        val txtApellido: TextView=findViewById(R.id.textApellido)
+        val txtTelefono: TextView=findViewById(R.id.textTelefono)
+        val txtEdad: TextView=findViewById(R.id.textEdad)
+        val txtCorreo: TextView=findViewById(R.id.textCorreo)
+
         val nombre= intent.getStringExtra("Nombre")
+        val apellido= intent.getStringExtra("Apellido")
+        val telefono= intent.getStringExtra("Telefono")
+        val edad= intent.getStringExtra("Edad")
+        val correo= intent.getStringExtra("Correo")
+
         txtNombre.text=nombre
+        txtApellido.text=apellido
+        txtTelefono.text=telefono
+        txtEdad.text=edad
+        txtCorreo.text=correo
 
     }
 }
