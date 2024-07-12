@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Primera App"
+rootProject.name = "PrimeraApp"
 include(":app")
+ 
