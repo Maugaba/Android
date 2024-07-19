@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PrimeraApp</string>
+    <string-array name="spinnerDeparments">
+        <item>Guatemala</item>
+        <item>El Progreso</item>
+        <item>Quetzaltenango</item>
+        <item>San Marcos</item>
+    </string-array>
 </resources>
